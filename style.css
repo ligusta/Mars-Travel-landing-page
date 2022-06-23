@@ -7,7 +7,13 @@
 }
 
 body{
-    background-image: url('img/Background-grainy-red.jpg')
+    background-color: #0f0f0f;
+    background-image: url('img/Background-noise.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
 }
 
 .navbar {
@@ -17,8 +23,7 @@ body{
     align-items: center;
     font-size: 1.2rem;
     position: relative;
-    top: 0;
-    z-index: 999; 
+    top: 0; 
 }
 
 .navbar__container {
@@ -27,9 +32,7 @@ body{
     height: 160px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 50px;    
+    padding: 0% 10% 0% 10%; 
 }
 
 .navbar__container__logo {
@@ -52,7 +55,8 @@ body{
     justify-content: center;
     width: 200px;
     text-decoration: none;
-    height: 100%;  
+    height: 100%; 
+    font-weight: 400; 
 }
 
 .navbar__container__menu {
@@ -69,8 +73,41 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 125px;
+    width: 170px;
     text-decoration: none;
     height: 100%;
     color: grey;
+}
+
+.mars__first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    font-size: 15rem;
+}
+
+.mars__first__center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%
+}
+
+.mars__first__center__item {
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #cf1804, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #cf1804, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    letter-spacing: 3rem;
+    font-weight: 500; 
+}
+
+#mars__first__center__item-mars-planet {
+    position: absolute;
+    width: 20%;
 }
