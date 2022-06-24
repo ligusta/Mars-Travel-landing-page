@@ -52,12 +52,6 @@
     fill:#7b1213;
 }
 
-#logo__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .menu {
     display: flex;
     align-items: center;
