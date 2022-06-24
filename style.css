@@ -11,7 +11,7 @@ body{
     background-image: url('img/Background-noise.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-color: gray;
+    background-color: rgb(24, 24, 24);
     width: 100vw;
     height: 100vh;
 }
@@ -32,7 +32,7 @@ body{
     height: 160px;
     z-index: 1;
     width: 100%;
-    padding: 0% 10% 0% 10%; 
+    padding: 0% 10% 0% 11%; 
 }
 
 .navbar__container__logo {
@@ -41,22 +41,10 @@ body{
     align-items: center;
 }
 
-#navbar__container__logo_item {
-    background: #8E0E00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #cf1804, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #cf1804, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+#navbar__container__logo__item {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    text-decoration: none;
-    height: 100%; 
-    font-weight: 400; 
 }
 
 .navbar__container__menu {
@@ -91,13 +79,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%
+    width: 80%;
+    position: relative;
 }
 
 .mars__first__center__item {
-    background: #8E0E00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #cf1804, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #cf1804, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #9d1518;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #9d1518, #991816);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #9d1518, #991816); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -109,5 +98,6 @@ body{
 
 #mars__first__center__item-mars-planet {
     position: absolute;
-    width: 20%;
+    width: 800px;
+    left: 25%;
 }
