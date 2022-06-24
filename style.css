@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+.page{
     background-color: #0f0f0f;
     background-image: url('img/Background-noise.jpg');
     background-repeat: no-repeat;
@@ -32,32 +32,43 @@ body{
     height: 160px;
     z-index: 1;
     width: 100%;
-    padding: 0% 10% 0% 11%; 
+    padding: 0% 11% 0% 11%; 
 }
 
-.navbar__container__logo {
+.logo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
-#navbar__container__logo__item {
+.logo__mars-travel {
+    width: 200px;
+}
+
+.cls-1{
+    isolation:isolate;
+}
+.cls-2{
+    fill:#7b1213;
+}
+
+#logo__item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.navbar__container__menu {
+.menu {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.navbar__container__menu__links {
+.menu__item {
     height: 160px;
 }
 
-.navbar__container__menu__links__item {
+.menu__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +78,7 @@ body{
     color: grey;
 }
 
-.mars__first {
+.buy-tickets {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +86,7 @@ body{
     font-size: 15rem;
 }
 
-.mars__first__center {
+.mars-description {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +94,7 @@ body{
     position: relative;
 }
 
-.mars__first__center__item {
+.mars-description__text {
     background: #9d1518;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #9d1518, #991816);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #9d1518, #991816); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
@@ -96,7 +107,7 @@ body{
     font-weight: 500; 
 }
 
-#mars__first__center__item-mars-planet {
+#mars-description__image {
     position: absolute;
     width: 800px;
     left: 25%;
