@@ -45,6 +45,14 @@
     width: 200px;
 }
 
+.logo__mars-travel__cls-1{
+    isolation:isolate;
+}
+
+.logo__mars-travel__cls-2{
+    fill:url(#Безымянный_градиент_52);
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -86,8 +94,24 @@
     width: 35rem;
 }
 
+.mars-description__svg-ma__cls-1{
+    isolation:isolate;
+}
+
+.mars-description__svg-ma__cls-2{
+    fill:url(#Безымянный_градиент_52);
+}
+
 .mars-description__svg-rs {
     width: 30rem;
+}
+
+.mars-description__svg-rs__cls-1{
+    isolation:isolate;
+}
+
+.mars-description__svg-rs__cls-2{
+    fill:url(#Безымянный_градиент_52);
 }
 
 #mars-description__image {
