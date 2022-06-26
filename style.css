@@ -86,17 +86,24 @@
     width: 80%;
 }
 
-.MARS__svg {
-    width: 60%;
-    padding: 100px;
+.mars-description__letter {
+    width: 15vw;
 }
 
-.MARS__word {
-    isolation: isolate;
+.a {
+    fill: url(#a);
+    }
+
+.mars-description__MA {
+    display: flex;
+    justify-content: space-between;
+    width: 34vw;
 }
 
-.MARS__letter {
-    fill: #7b1213;
+.mars-description__RS {
+    display: flex;
+    justify-content: space-between;
+    width: 34vw;
 }
 
 #mars-description__image {
