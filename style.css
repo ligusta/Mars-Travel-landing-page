@@ -6,6 +6,12 @@
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Exan';
+    src: url(/font/Exan-Regular.ttf) format('ttf');
+    font-weight: 400;
+}
+
 .page{
     background-color: #090909;
     background-image: url('img/bg.png');
@@ -13,7 +19,7 @@
 }
 
 .navbar {
-    height: 13vw;
+    height: 11vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,21 +86,23 @@
     width: 80%;
 }
 
-.mars-description__letter__item {
-    color:red;
-    font-size: 15vw;
+.MARS__svg {
+    width: 60%;
+    padding: 100px;
 }
 
-.mars-description_letter {
-    display: flex;
-    justify-content: space-between;
-    width: 37%;
+.MARS__word {
+    isolation: isolate;
+}
+
+.MARS__letter {
+    fill: #7b1213;
 }
 
 #mars-description__image {
     position: absolute;
-    width: 32%;
-    left: 34%;
+    width: 30%;
+    left: 35%;
 }
 
 .mars-text-button {
