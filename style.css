@@ -19,7 +19,7 @@
 }
 
 .navbar {
-    height: 10vw;
+    height: 18vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
     justify-content: space-between;
     z-index: 1;
     width: 100%;
-    padding: 0% 10% 0% 10%; 
+    padding: 0% 10% 0% 10%;
 }
 
 .logo {
@@ -82,7 +82,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: 27vw;
+    height: 55vh;
     width: 80%;
 }
 
@@ -115,16 +115,28 @@
 .mars-text-button {
     display: flex;
     justify-content: space-between;
-    align-items: left;
     font-size: 1.2vw;
     width: 80%;
-    padding-top: 1.5vw;
+    padding-top: 2vh;
 }
 
 .mars-text-button__text-description {
     color: #C3C5C2;
 }
 
+.mars-text-button__buy-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13vw;
+}
+
 .mars-text-button__text-button {
     color: #FFF8F6;
+}
+
+.mars-text-button__arrow-right {
+    position: absolute;
+    height: 72px;
+    right: 210px;
 }
