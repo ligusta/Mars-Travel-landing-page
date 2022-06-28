@@ -90,6 +90,14 @@
     width: 15vw;
 }
 
+#mars-description__letter__A {
+    width: 12vw;
+}
+
+#mars-description__letter__R {
+    width: 13vw;
+}
+
 .a {
     fill: url(#a);
     }
@@ -104,6 +112,7 @@
     display: flex;
     justify-content: space-between;
     width: 34vw;
+    padding-left: 4vw;
 }
 
 #mars-description__image {
@@ -135,8 +144,17 @@
     color: #FFF8F6;
 }
 
-.mars-text-button__arrow-right {
+#Layer_1 {
     position: absolute;
-    height: 72px;
-    right: 210px;
+    width: 3.5vw;
+    right: 11vw;
+    fill:#FFF8F6;
+    fill-opacity:1; 
+    stroke:none; 
+    stroke-width:0px;
+}
+
+.mars-text-button__circle {
+    fill: #FFF8F6;
+    width: 2.5vw;
 }
