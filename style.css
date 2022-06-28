@@ -15,6 +15,7 @@
 .page{
     background-color: #090909;
     background-image: url('img/bg.png');
+    background-size: contain;
     background-repeat: repeat;
 }
 
@@ -121,12 +122,19 @@
     left: 35%;
 }
 
+#Orbit {
+    position: absolute;
+    width: 33%;
+    left: 33.5%; 
+}
+
 .mars-text-button {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
+    word-spacing: 0.2   vw;
     width: 80%;
-    padding-top: 2vh;
+    padding-top: 4vh;
 }
 
 .mars-text-button__text-description {
@@ -147,7 +155,7 @@
 #Layer_1 {
     position: absolute;
     width: 3.5vw;
-    right: 11vw;
+    right: 11.2vw;
     fill:#FFF8F6;
     fill-opacity:1; 
     stroke:none; 
@@ -156,5 +164,5 @@
 
 .mars-text-button__circle {
     fill: #FFF8F6;
-    width: 2.5vw;
+    width: 2.7vw;
 }
