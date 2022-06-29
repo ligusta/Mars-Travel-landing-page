@@ -9,15 +9,12 @@
 html {
     background-color: #100f0f;
     background-image: url('img/bg.png');
-    background-size: contain;
     background-repeat: repeat;
 }
 
 .page{
     background-image: url('img/stars-png-620.png');
-    background-size: contain;
-    background-repeat: repeat; 
-    background-size: 100%;  
+    background-repeat: repeat;  
 }
 
 .navbar {
@@ -205,10 +202,10 @@ html {
 /* Exploration Section */
 
 .exploration__section {
-    padding-top: 33vh;
+    padding-top: 28vh;
     width: 80%;
     padding-left: 10%;
-    height: 140vh;
+    height: 120vh;
 }
 
 .exploration__headline {
@@ -226,6 +223,11 @@ html {
     justify-content: left;
     align-items: flex-end;
     padding-top: 10vh;
+    position: relative;
+}
+
+.planet-with-dots {
+    position: relative;
 }
 
 #planet-and-note__image {
@@ -242,7 +244,8 @@ html {
     font-weight: 400;
     padding-left: 20%;
     padding-bottom: 8%;
-    text-align: center;    
+    text-align: center;
+    position: relative;    
 }
 
 #planet-and-note__note-first-string {
@@ -252,17 +255,17 @@ html {
 #planet-and-note__orbit {
     position: absolute;
     width: 37vw;
-    margin-top: 1%;
-    left: 13.1%;
+    top: 9.6%;
+    left: 4.45%;
 }
 
 .planet-and-note__circle-blur-white {
     position: absolute;
     width: 16vw;
     fill: rgb(150, 127, 127);
-    filter: blur(5vw);
-    right: 22%;
-    bottom: -90%;
+    filter: blur(4vw);
+    right: -9%;
+    bottom: 10%;
     z-index: -1;     
 }
 
@@ -270,8 +273,8 @@ html {
     position: absolute;
     width: 28vw;
     fill: red;
-    left: -5%;
-    top: 180%;
+    left: -20%;
+    top: 100%;
     filter: blur(15vw);
     z-index: -1;
 }
