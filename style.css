@@ -6,20 +6,19 @@
     scroll-behavior: smooth;
 }
 
-.page{
+html {
     background-color: #100f0f;
     background-image: url('img/bg.png');
     background-size: contain;
     background-repeat: repeat;
 }
 
-/* .bg__milkyway{
+.page{
     background-image: url('img/stars-png-620.png');
     background-size: contain;
-    background-repeat: repeat;
-} */
-
-/* Navbar */
+    background-repeat: repeat; 
+    background-size: 100%;  
+}
 
 .navbar {
     height: 18vh;
@@ -27,6 +26,7 @@
     justify-content: center;
     align-items: center;
     top: 0; 
+    z-index: 12;
 }
 
 .navbar__container {
@@ -124,12 +124,23 @@
     position: absolute;
     width: 30%;
     left: 35%;
+    -webkit-filter: drop-shadow(0 0 1vw rgb(13, 12, 12));
+    filter: drop-shadow(0 0 1vw rgb(13, 12, 12));
 }
 
 #Orbit {
     position: absolute;
     width: 33%;
     left: 33.5%; 
+}
+
+.mars-description__circle-red {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    fill: red;
+    filter: blur(25vw);
+    z-index: -1;
 }
 
 .mars-text-button {
@@ -139,6 +150,16 @@
     word-spacing: 0.2   vw;
     width: 80%;
     padding-top: 4vh;
+}
+
+.mars-text-button__circle-red {
+    position: absolute;
+    width: 25vw;
+    fill: red;
+    left: -10%;
+    bottom: 0%;
+    filter: blur(15vw);
+    z-index: -1;
 }
 
 .mars-text-button__text-description {
@@ -154,6 +175,15 @@
 
 .mars-text-button__text-button {
     color: #FFF8F6;
+}
+
+.mars-text-button__circle-red-small {
+    position: absolute;
+    width: 10vw;
+    fill: rgb(244, 75, 75);
+    filter: blur(6vw);
+    right: 6.3%;
+    z-index: -1;    
 }
 
 #Layer_1 {
@@ -177,7 +207,7 @@
     padding-top: 33vh;
     width: 80%;
     padding-left: 10%;
-    height: 130vh;
+    height: 140vh;
 }
 
 .exploration__headline {
@@ -199,19 +229,38 @@
 
 #planet-and-note__image {
     width: 35vw;
-    padding-left: 8%;
+    margin-left: 6%;
+    -webkit-filter: drop-shadow(0 0 1vw rgb(13, 12, 12));
+    filter: drop-shadow(0 0 1vw rgb(13, 12, 12));
 }
 
 .planet-and-note__note {
     color: #aaaaaa;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-weight: 400;
     padding-left: 20%;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
     text-align: center;    
 }
 
 #planet-and-note__note-first-string {
     word-spacing: 0.4vw;
+}
+
+#planet-and-note__orbit {
+    position: absolute;
+    width: 37vw;
+    margin-top: 1%;
+    left: 13.1%;
+}
+
+.planet-and-note__circle-blure-white {
+    position: absolute;
+    width: 16vw;
+    fill: rgb(150, 127, 127);
+    filter: blur(5vw);
+    right: 21%;
+    bottom: -90%;
+    z-index: -1;     
 }
