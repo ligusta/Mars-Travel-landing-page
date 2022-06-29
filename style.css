@@ -13,11 +13,11 @@
     background-repeat: repeat;
 }
 
-.bg__milkyway{
+/* .bg__milkyway{
     background-image: url('img/stars-png-620.png');
     background-size: contain;
     background-repeat: repeat;
-}
+} */
 
 /* Navbar */
 
@@ -174,27 +174,44 @@
 /* Exploration Section */
 
 .exploration__section {
-    padding-top: 35vh;
+    padding-top: 33vh;
     width: 80%;
     padding-left: 10%;
+    height: 130vh;
 }
 
 .exploration__headline {
     display: flex;
     justify-content: left;
-    font-size: 3vw;
+    font-size: 2.7vw;
     word-spacing: 0.9vw;
-    color: #FFF8F6;
-    font-family: 'Goldman', cursive;
+    color: #f7f2f1;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
 
 .planet-and-note {
     display: flex;
-    justify-content: space-between;
-    padding-top: 9vh;
+    justify-content: left;
+    align-items: flex-end;
+    padding-top: 10vh;
 }
 
 #planet-and-note__image {
-    width: 33vw;
+    width: 35vw;
+    padding-left: 8%;
+}
+
+.planet-and-note__note {
+    color: #aaaaaa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    text-align: center;    
+}
+
+#planet-and-note__note-first-string {
+    word-spacing: 0.4vw;
 }
