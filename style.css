@@ -13,8 +13,8 @@ html {
 }
 
 .page{
-    background-image: url('img/stars-png-620.png');
-    background-repeat: repeat;  
+    /* background-image: url('img/stars-png-620.png');
+    background-repeat: repeat;   */
 }
 
 .navbar {
@@ -261,13 +261,12 @@ html {
 
 .planet-with-dots__dots {
     position: absolute;
-    width: 1.2%;
-    border-radius: 50%;
+    width: 0.4vw;
+    border-radius: 0.5vw;
     background-color: #fff;
     box-shadow:
-        0 0 0.31vw 0.16vw #fff,
-        0 0 0.52vw 0.31vw rgb(172, 24, 24),
-        0 0 0.73vw 0.47vw rgb(218, 74, 18);
+        0 0 0.21vw 0.06vw rgb(201, 194, 194),
+        0 0 0.32vw 0.11vw rgb(119, 115, 115);
 }
 
 #planet-with-dots__dots__1 {
@@ -286,8 +285,43 @@ html {
 }
 
 #planet-with-dots__dots__4 {
-    top: 25%;
-    left: 85%;
+    top: 41%;
+    left: 65%;
+}
+
+#planet-with-dots__dots__5 {
+    top: 44%;
+    left: 100%;
+}
+
+#planet-with-dots__dots__6 {
+    top: 57%;
+    left: 68%;
+}
+
+#planet-with-dots__dots__7 {
+    top: 59%;
+    left: 22%;
+}
+
+#planet-with-dots__dots__8 {
+    top: 75%;
+    left: 55%;
+}
+
+#planet-with-dots__dots__9 {
+    top: 76%;
+    left: 97%;
+}
+
+#planet-with-dots__dots__10 {
+    top: 93%;
+    left: 70%;
+}
+
+#planet-with-dots__dots__11 {
+    top: 89%;
+    left: 30%;
 }
 
 .planet-and-note__circle-blur-white {
