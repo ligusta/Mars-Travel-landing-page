@@ -6,18 +6,20 @@
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'Exan';
-    src: url(/font/Exan-Regular.ttf) format('ttf');
-    font-weight: 400;
-}
-
 .page{
-    background-color: #090909;
+    background-color: #100f0f;
     background-image: url('img/bg.png');
     background-size: contain;
     background-repeat: repeat;
 }
+
+.bg__milkyway{
+    background-image: url('img/stars-png-620.png');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+/* Navbar */
 
 .navbar {
     height: 18vh;
@@ -70,6 +72,8 @@
     height: 100%;
     color: grey;
 }
+
+/* Buy Tickets Section */
 
 .buy-tickets {
     display: flex;
@@ -165,4 +169,32 @@
 .mars-text-button__circle {
     fill: #FFF8F6;
     width: 2.7vw;
+}
+
+/* Exploration Section */
+
+.exploration__section {
+    padding-top: 35vh;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.exploration__headline {
+    display: flex;
+    justify-content: left;
+    font-size: 3vw;
+    word-spacing: 0.9vw;
+    color: #FFF8F6;
+    font-family: 'Goldman', cursive;
+    font-weight: 400;
+}
+
+.planet-and-note {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9vh;
+}
+
+#planet-and-note__image {
+    width: 33vw;
 }
