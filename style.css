@@ -232,7 +232,7 @@ html {
 
 #planet-and-note__image {
     width: 35vw;
-    margin-left: 6%;
+    margin-left: 11.7%;
     -webkit-filter: drop-shadow(0 0 1vw rgb(13, 12, 12));
     filter: drop-shadow(0 0 1vw rgb(13, 12, 12));
 }
@@ -255,8 +255,39 @@ html {
 #planet-and-note__orbit {
     position: absolute;
     width: 37vw;
-    top: 9.6%;
-    left: 4.45%;
+    top: -3.1%;
+    left: 8.8%;
+}
+
+.planet-with-dots__dots {
+    position: absolute;
+    width: 1.2%;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+        0 0 0.31vw 0.16vw #fff,
+        0 0 0.52vw 0.31vw rgb(172, 24, 24),
+        0 0 0.73vw 0.47vw rgb(218, 74, 18);
+}
+
+#planet-with-dots__dots__1 {
+    top: 25%;
+    left: 85%;
+}
+
+#planet-with-dots__dots__2 {
+    top: 20%;
+    left: 50%;
+}
+
+#planet-with-dots__dots__3 {
+    top: 32%;
+    left: 38%;
+}
+
+#planet-with-dots__dots__4 {
+    top: 25%;
+    left: 85%;
 }
 
 .planet-and-note__circle-blur-white {
