@@ -147,18 +147,19 @@ html {
     display: flex;
     justify-content: space-between;
     font-size: 1.1vw;
-    word-spacing: 0.2   vw;
+    word-spacing: 0.2vw;
     width: 80%;
     padding-top: 4vh;
+    position: relative;
 }
 
 .mars-text-button__circle-red {
     position: absolute;
     width: 25vw;
     fill: red;
-    left: -10%;
-    bottom: 0%;
-    filter: blur(15vw);
+    left: -28%;
+    bottom: -210%;
+    filter: blur(13vw);
     z-index: -1;
 }
 
@@ -182,14 +183,14 @@ html {
     width: 10vw;
     fill: rgb(244, 75, 75);
     filter: blur(6vw);
-    right: 6.3%;
+    right: -4.4%;
     z-index: -1;    
 }
 
-#Layer_1 {
+#mars-text-button__arrow-right {
     position: absolute;
     width: 3.5vw;
-    right: 11.2vw;
+    right: 1vw;
     fill:#FFF8F6;
     fill-opacity:1; 
     stroke:none; 
@@ -255,12 +256,22 @@ html {
     left: 13.1%;
 }
 
-.planet-and-note__circle-blure-white {
+.planet-and-note__circle-blur-white {
     position: absolute;
     width: 16vw;
     fill: rgb(150, 127, 127);
     filter: blur(5vw);
-    right: 21%;
+    right: 22%;
     bottom: -90%;
     z-index: -1;     
+}
+
+.planet-and-note__circle-blur-red {
+    position: absolute;
+    width: 28vw;
+    fill: red;
+    left: -5%;
+    top: 180%;
+    filter: blur(15vw);
+    z-index: -1;
 }
