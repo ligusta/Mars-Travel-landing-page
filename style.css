@@ -2,7 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Space Grotesk', sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+    font-family: 'Modulus';
+    font-weight: 700;
     scroll-behavior: smooth;
 }
 
@@ -10,6 +12,58 @@ html {
     background-color: #100f0f;
     background-image: url('img/bg.png');
     background-repeat: repeat;
+}
+
+/* Add Modulus font family */
+
+@font-face {
+    font-family: 'Modulus';
+    src: url('fonts/Modulus/Modulus.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Modulus';
+    src: url('fonts/Modulus/Modulus-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Modulus';
+    src: url('fonts/Modulus/Modulus-Bold.otf') format('truetype');
+    font-weight: 700;
+}
+
+/* Add Ulm Grotesk font family */
+
+@font-face {
+    font-family: 'Ulm Grotesk';
+    src: url('fonts/UlmGrotesk/UlmGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Ulm Grotesk';
+    src: url('fonts/UlmGrotesk/UlmGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Ulm Grotesk';
+    src: url('fonts/UlmGrotesk/UlmGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Ulm Grotesk';
+    src: url('fonts/UlmGrotesk/UlmGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Ulm Grotesk';
+    src: url('fonts/UlmGrotesk/UlmGrotesk-Extrabold.ttf') format('truetype');
+    font-weight: 800;
 }
 
 .page{
@@ -214,7 +268,7 @@ html {
     font-size: 2.7vw;
     word-spacing: 0.9vw;
     color: #f7f2f1;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Ulm Grotesk';
     font-weight: 400;
 }
 
@@ -342,4 +396,23 @@ html {
     top: 100%;
     filter: blur(15vw);
     z-index: -1;
+}
+
+/* Gallery Section */
+
+.gallery__section {
+    padding-top: 21vh;
+    width: 80%;
+    padding-left: 10%;
+    height: 120vh;
+}
+
+.gallery__headline {
+    display: flex;
+    justify-content: left;
+    font-size: 2.7vw;
+    word-spacing: 0.9vw;
+    color: #f7f2f1;
+    font-family: 'Ulm Grotesk';
+    font-weight: 400;
 }
