@@ -1,4 +1,4 @@
-ttrug/* Carousel Section */
+/* Carousel Section */
 
 const $ = (selector) => {
   return document.querySelector(selector);
